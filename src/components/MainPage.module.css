@@ -91,10 +91,28 @@
     margin-left: 40px;
 }
 .mainPageObogrevatel{
-    width: 14vw;
-    height: 45vh;
+    width: 198px;
+    height: 374px;
     background-color: white;
     border-radius: 10px;
+}
+.mainPageItems{
+    width: 198px;
+    height: 374px;
+    background-color: white;
+    border-radius: 10px;
+}
+.mainPageItemsP{
+    display: grid;
+    grid-template-columns: repeat(4, 220px);
+    gap: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+.mainPageImgItems{
+    width: 12vw;
+    height: 20vh;
+    margin-top: 10px;
 }
 .mainPageImgObogrevatel{
     width: 13vw;
@@ -104,7 +122,7 @@
 .mainPageObogrevately{
     display: grid;
     grid-template-columns: repeat(4, 220px);
-    gap: 20px;
+    gap: 40px;
     margin-left: 40px;
     margin-top: 40px;
 }
@@ -122,8 +140,8 @@
     margin-top: 5px;
 }
 .mainPageBtnObogrevatel{
-    width: 13vw;
-    height: 4vh;
+    width: 182px;
+    height: 32px;
     border: none;
     background-color: rgb(255, 149, 0);
     border-radius: 10px;
@@ -131,5 +149,65 @@
     color: white;
     font-weight: bold;
     margin-left: 5px;
-    margin-top: 48px;
+    padding-top: 10px;
+}
+
+.mainPageButtonsCh{
+    width: 133px;
+    height: 48px;
+    border-radius: 25px;
+    color: rgb(33, 150, 243);
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.mainPageButtonsCh3{
+    width: 279px;
+    height: 48px;
+    border-radius: 25px;
+    color: rgb(33, 150, 243);
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.mainPageButtonsCh4{
+    width: 196px;
+    height: 48px;
+    border-radius: 25px;
+    color: rgb(33, 150, 243);
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.mainPageButtonsCh5{
+    width: 222px;
+    height: 48px;
+    border-radius: 25px;
+    color: rgb(33, 150, 243);
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.mainPageButtonsP{
+    display: flex;
+    gap: 20px;
+    margin-top: 25px;
+    margin-left: 40px;
+}
+.mainPageMaterialIcon{
+    display: flex;
+    margin-left: 170px;
+    margin-top: 10px;
 }
