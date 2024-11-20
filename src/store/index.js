@@ -1,7 +1,7 @@
 import {createStore, combineReducers} from "redux";
-import {cashReducer} from "./cashReducer";
+import {productReducer} from "./productReducer";
 // Изменить cashReducer 
 const rootReducer = combineReducers({
-  cashReducer
+  productReducer
 })
 export const store = createStore(rootReducer);

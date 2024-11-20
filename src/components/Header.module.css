@@ -27,8 +27,9 @@
 .h2Icons{
     text-decoration: none;
     color: black;
-    font-size: 26px;
+    font-size: 21px;
     margin-top: 10px;
+    font-weight: bold;
 }
 .btnHeader{
     width: 9vw;
@@ -50,9 +51,11 @@
     margin-top: 16px;
 }
 .headerPage3{
+    gap: 15px;
     margin-top: 5px;
     display: flex;
     justify-content: end;
+    margin-right: 70px;
 }
 .headerPage3Btn{
     width: 12vw;
@@ -66,4 +69,16 @@
 .headerPage3P{
     font-size: 18px;
     margin-top: 8px;
+}
+.btnHeader3{
+    width: 4vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 157, 255);
+    background-color: white;
+    font-size: 15px;
+}
+.btnPHeader{
+    color: white;
+    text-decoration: none;
 }
