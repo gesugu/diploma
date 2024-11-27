@@ -9,6 +9,7 @@ import FavoritesPage from "./components/FavoritesPage";
 import ComparePage from './components/ComparePage';
 import Smartphones from "./components/Smartphones"
 import ItemOneScreen from './components/ItemOneScreen';
+import ItemOneScreenInfo from './components/ItemOneScreenInfo';
 
 function App() {
   return (
@@ -19,10 +20,12 @@ function App() {
           <Route path="/" element={<MainPage />} />
           <Route path="/korzina" element={<KorzinaPage />} />
           <Route path="/katalog" element={<KatalogPage />} />
-          <Route path="/favorites" element={<FavoritesPage />} />
+          <Route path="/favorites/:item2_id" element={<FavoritesPage />} />
           <Route path="/compare" element={<ComparePage />} />
           <Route path="/smartphones" element={<Smartphones />} />
           <Route path="/item/:id" element={<ItemOneScreen />} />
+          <Route path="/item2/:item_id" element={<ItemOneScreenInfo />} />
+          <Route path="/favorites" element={<FavoritesPage />} />
         </Routes>
       </BrowserRouter>
     </div>

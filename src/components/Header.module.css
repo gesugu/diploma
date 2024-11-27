@@ -5,6 +5,9 @@
     display: flex;
     flex-direction: column;
 }
+.headerPageParent{
+    width: 100vw;
+}
 .h2Parent{
     display: flex;
     flex-direction: column;
@@ -81,4 +84,34 @@
 .btnPHeader{
     color: white;
     text-decoration: none;
+}
+.notVisibleModal{
+    width: 55vw;
+    height: 60vh;
+    background-color: white;
+    border: none;
+}
+.visibleModal{
+    width: 55vw;
+    height: 60vh;
+    background-color: white;
+    border: none;
+    display: none;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.headerPageLinkP{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+.modalContentP{
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 10px;
 }

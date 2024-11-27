@@ -98,7 +98,7 @@
 }
 .mainPageItems{
     width: 198px;
-    height: 374px;
+    height: 390px;
     background-color: white;
     border-radius: 10px;
 }
@@ -130,14 +130,21 @@
     font-size: 30px;
     color: rgb(255, 149, 0);
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 10px;
     margin-left: 5px;
+    margin-bottom: 10px;
 }
 .mainPagePObogrevatel{
     font-size: 18px;
     margin-left: 5px;
     font-weight: bold;
     margin-top: 5px;
+}
+.MainPageBtnText{
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
 }
 .mainPageBtnObogrevatel{
     width: 182px;
@@ -151,12 +158,17 @@
     margin-left: 5px;
     padding-top: 10px;
 }
+.mainPageBtnsParent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 
 .mainPageButtonsCh{
     width: 133px;
     height: 48px;
     border-radius: 25px;
-    color: rgb(33, 150, 243);
+    color: gray;
     font-family: "Sofia Sans Semi Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -168,7 +180,7 @@
     width: 279px;
     height: 48px;
     border-radius: 25px;
-    color: rgb(33, 150, 243);
+    color: gray;
     font-family: "Sofia Sans Semi Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -180,7 +192,7 @@
     width: 196px;
     height: 48px;
     border-radius: 25px;
-    color: rgb(33, 150, 243);
+    color: gray;
     font-family: "Sofia Sans Semi Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -192,7 +204,7 @@
     width: 222px;
     height: 48px;
     border-radius: 25px;
-    color: rgb(33, 150, 243);
+    color: gray;
     font-family: "Sofia Sans Semi Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: bold;
@@ -206,8 +218,88 @@
     margin-top: 25px;
     margin-left: 40px;
 }
-.mainPageMaterialIcon{
+.mainPageDivs0{
+    width: 170px;
+    height: 160px;
+    background-color: white;
+}
+.mainPageDivs{
+    display: grid;
+    grid-template-columns: repeat(7, 175px);
+    gap: 10px;
+    margin-left: 40px;
+    margin-top: 45px;
+}
+.mainPageImages0{
+    width: 402px;
+    height: 216px;
+}
+.mainPageImages{
+    margin-left: 40px;
+    margin-top: 25px;
+}
+.mainPageButtonsCh{
+    width: 165px;
+    height: 48px;
+    border-radius: 25px;
+    color: gray;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.mainPageButtonsCh2{
+    width: 210px;
+    height: 48px;
+    border-radius: 25px;
+    color: gray;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.mainPageButtonsCh3{
+    width: 279px;
+    height: 48px;
+    border-radius: 25px;
+    color: gray;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.mainPageButtonsCh4{
+    width: 196px;
+    height: 48px;
+    border-radius: 25px;
+    color: gray;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.mainPageButtonsCh5{
+    width: 222px;
+    height: 48px;
+    border-radius: 25px;
+    color: gray;
+    font-family: "Sofia Sans Semi Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15px;
+    border: 1px solid gray;
+}
+.smartphonesPageMaterialParent{
     display: flex;
-    margin-left: 170px;
+    justify-content: space-between;
     margin-top: 10px;
 }

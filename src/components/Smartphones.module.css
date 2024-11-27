@@ -1,27 +1,28 @@
-.mainPageObogrevatel{
-    width: 14vw;
-    height: 45vh;
+.mainPageItems{
+    width: 198px;
+    height: 390px;
     background-color: white;
     border-radius: 10px;
 }
-.mainPageImgObogrevatel{
-    width: 13vw;
-    height: 21vh;
-    margin-top: 10px;
-}
-.mainPageObogrevately{
+.mainPageItemsP{
     display: grid;
     grid-template-columns: repeat(4, 220px);
-    gap: 20px;
+    gap: 40px;
     margin-left: 40px;
     margin-top: 40px;
+}
+.mainPageImgItems{
+    width: 12vw;
+    height: 20vh;
+    margin-top: 10px;
 }
 .mainPageP1Obogrevatel{
     font-size: 30px;
     color: rgb(255, 149, 0);
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 10px;
     margin-left: 5px;
+    margin-bottom: 10px;
 }
 .mainPagePObogrevatel{
     font-size: 18px;
@@ -29,9 +30,14 @@
     font-weight: bold;
     margin-top: 5px;
 }
+.mainPageBtnsParent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
 .mainPageBtnObogrevatel{
-    width: 13vw;
-    height: 4vh;
+    width: 182px;
+    height: 32px;
     border: none;
     background-color: rgb(255, 149, 0);
     border-radius: 10px;
@@ -39,5 +45,10 @@
     color: white;
     font-weight: bold;
     margin-left: 5px;
-    margin-top: 48px;
+    padding-top: 10px;
+}
+.smartphonesPageMaterialParent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
 }
