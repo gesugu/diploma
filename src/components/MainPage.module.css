@@ -303,3 +303,81 @@
     justify-content: space-between;
     margin-top: 10px;
 }
+.mainPageBtnChat{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    background-color: white;
+    color: orange;
+    position: fixed;
+    right: 2%;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+.chatIcon{
+    width: 30px;
+    height: 30px;
+    margin-left: 14px;
+}
+.mainPageDChat1{
+    display: flex;
+    flex-direction: column;
+    right: 2%;
+    bottom: 10%;
+    position: fixed;
+}
+.mainPageDChat{
+    width: 11vw;
+    height: 8vh;
+    border: none;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px gray;
+    font-size: 17px;
+    text-align: center;
+}
+.mainPageDChat2{
+    display: none;
+}
+.mainPageDChatP2{
+    border: none;
+}
+.mainPageDChatP3{
+    display: none;
+}
+.mainPageDChatP{
+    margin-top: 10px;
+}
+.mainPageDChatP0{
+    color: gray;
+}
+.mainPageDChat0x{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 5px 5px 5px gray;
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+}
+.mainPageLinkChat{
+    text-decoration: none;
+    color: black;
+}
+.mainPageModal0{
+    display: none;
+    width: 23vw;
+    height: 75vh;
+    box-shadow: 5px 5px 5px gray;
+    border-radius: 20px;
+}
+.mainPageModal{
+    width: 23vw;
+    height: 75vh;
+    box-shadow: 5px 5px 5px gray;
+    background-color: white;
+    border-radius: 20px;
+}

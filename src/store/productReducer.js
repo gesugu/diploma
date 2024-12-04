@@ -26,6 +26,7 @@ const GET_USERS = 'GET_USERS'
 const REMOVE_USER = 'REMOVE_USER'
 const SELECT_ITEM2 = 'SELECT_ITEM2';
 const REMOVE_ITEM = 'REMOVE_ITEM'
+const REMOVE_ITEM2 = 'REMOVE_ITEM2'
 
 export const productReducer = (state = defaultState, action) => {
   switch (action.type) {
@@ -62,6 +63,8 @@ export const productReducer = (state = defaultState, action) => {
           return { ...state, selectItem2: [...state.selectItem2, ...action.payload] };
       case REMOVE_ITEM:
           return {...state, selectItem2: state.selectItem2.filter(item => item.id !== action.payload)}
+      case REMOVE_ITEM2:
+          return {...state, selectItem: state.selectItem.filter(item => item.id !== action.payload)}
       default:
           return state;
   }
@@ -82,3 +85,4 @@ export const removeUserAction = (payload) => ({type: REMOVE_USER, payload})
 export const getUserAction = (payload) => ({type: GET_USERS, payload})
 export const selectItemAction2 = payload => ({ type: SELECT_ITEM2, payload });
 export const removeItemAction = payload => ({ type: REMOVE_ITEM, payload });
+export const removeItemAction2 = payload => ({ type: REMOVE_ITEM2, payload });

@@ -10,6 +10,7 @@ import ComparePage from './components/ComparePage';
 import Smartphones from "./components/Smartphones"
 import ItemOneScreen from './components/ItemOneScreen';
 import ItemOneScreenInfo from './components/ItemOneScreenInfo';
+import ChatPage from './components/ChatPage';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
           <Route path="/item/:id" element={<ItemOneScreen />} />
           <Route path="/item2/:item_id" element={<ItemOneScreenInfo />} />
           <Route path="/favorites" element={<FavoritesPage />} />
+          <Route path="/chat" element={<ChatPage />} />
         </Routes>
       </BrowserRouter>
     </div>

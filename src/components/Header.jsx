@@ -38,7 +38,7 @@ const Header = () => {
           <button className={classes.btnHeader3}>Eng</button>
         </div>
         <div className={classes.headerPage2}>
-          <h2 className={classes.h2Header}>Все делаем с любовью</h2>
+          <h2 className={classes.h2Header}><Link className={classes.h2Header} to='/'>Все делаем с любовью</Link></h2>
           <button className={classes.btnHeader}>
             <Link className={classes.btnPHeader} to="/katalog">
               Каталог
